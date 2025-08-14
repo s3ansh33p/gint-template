@@ -10,8 +10,7 @@ USER root
 RUN apt-get update && apt-get install -y sudo && rm -rf /var/lib/apt/lists/*
 
 # Create user 'dev' with password 'dev' and add to sudo group
-RUN useradd -m -s /bin/bash dev \
-    && echo "dev:dev" | chpasswd \
+RUN echo "dev:dev" | chpasswd \
     && usermod -aG sudo dev
 
 # Optional: prevent sudo from asking for a password
