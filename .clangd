@@ -1,0 +1,4 @@
+CompileFlags:
+  Add: [
+    "-I/home/dev/.local/share/giteapc/Lephenixnoir/gint/include/"
+  ]
