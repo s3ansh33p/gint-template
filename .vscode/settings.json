@@ -1,0 +1,5 @@
+{
+  "clangd.arguments": [
+    "--query-driver=/home/dev/.local/bin/sh-elf-gcc"
+  ]
+}
